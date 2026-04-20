@@ -4,6 +4,19 @@ A clean, minimal blog built with [EmDash](https://github.com/emdash-cms/emdash).
 
 ![Blog template homepage](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/blog/latest/homepage-light-desktop.jpg)
 
+# EmDash Blog Template
+
+ENV cPanel
+EMDASH_SITE_URL	https://iot.admin.id	
+
+EMDASH_OAUTH_GOOGLE_CLIENT_ID	XXXXXXXXXXXXXXXXXXX	
+
+EMDASH_OAUTH_GOOGLE_CLIENT_SECRET	XXXXXXXXXXXXXXXXXXXX	
+
+EMDASH_AUTH_SECRET	XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+![App Screenshot](1.png)
+
 ## What's Included
 
 - Featured post hero on the homepage
