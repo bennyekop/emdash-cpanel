@@ -7,8 +7,8 @@ import { sqlite } from "emdash/db";
 
 // Google OAuth credentials
 // These are set as environment variables for the OAuth routes to consume
-process.env.EMDASH_OAUTH_GOOGLE_CLIENT_ID = "360824854013-mnlffhgjru4tfjnql1kmk97leobmtj8n.apps.googleusercontent.com";
-process.env.EMDASH_OAUTH_GOOGLE_CLIENT_SECRET = "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";
+process.env.EMDASH_OAUTH_GOOGLE_CLIENT_ID = "";
+process.env.EMDASH_OAUTH_GOOGLE_CLIENT_SECRET = "";
 
 // Production domain - change this before building for production
 const SITE_URL = process.env.EMDASH_SITE_URL || process.env.SITE_URL || "https://iot.admin.id";
@@ -45,7 +45,7 @@ export default defineConfig({
 			// Auth configuration with passkeys
 			auth: {
 				// Generate a secure secret: npx emdash auth secret
-				secret: process.env.EMDASH_AUTH_SECRET || "jTSfPtth1SDTOy5e1WShse0EIu0SUD6fq5LoifYjs9c",
+				secret: process.env.EMDASH_AUTH_SECRET || "",
 				passkeys: {
 					rpName: "IoT Admin",
 					rpId: getHostname(SITE_URL),
