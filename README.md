@@ -4,7 +4,11 @@ A clean, minimal blog built with [EmDash](https://github.com/emdash-cms/emdash).
 
 ![Blog template homepage](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/blog/latest/homepage-light-desktop.jpg)
 
-# EmDash Blog Template
+# cPanel SETUP
+
+- sesuaikan semua konfigurasi di file astro.config.js termasuk nama domain / subdomain
+- npm run build
+- upload hasil build ke dokumen root nodejs cPanel
 
 ENV cPanel
 EMDASH_SITE_URL	https://iot.admin.id	
